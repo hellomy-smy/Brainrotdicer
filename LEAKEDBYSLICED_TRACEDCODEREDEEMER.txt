@@ -1,23 +1,9 @@
---[[
-
-  /$$$$$$  /$$       /$$$$$$  /$$$$$$  /$$$$$$$$ /$$$$$$$ 
- /$$__  $$| $$      |_  $$_/ /$$__  $$| $$_____/| $$__  $$
-| $$  \__/| $$        | $$  | $$  \__/| $$      | $$  \ $$
-|  $$$$$$ | $$        | $$  | $$      | $$$$$   | $$  | $$
- \____  $$| $$        | $$  | $$      | $$__/   | $$  | $$
- /$$  \ $$| $$        | $$  | $$    $$| $$      | $$  | $$
-|  $$$$$$/| $$$$$$$$ /$$$$$$|  $$$$$$/| $$$$$$$$| $$$$$$$/
- \______/ |________/|______/ \______/ |________/|_______/
-
-              [ LEAKED BY SLICED ]
-            [ discord.gg/pubmethod ]
-
 ]]
 local sliced85, sliced86, localPlayer, sliced87, net, sliced88, sliced89, sliced90, keyboardEnabled, flag18
 local slicedfn29, sliced91, tbl18, max, flag19, sliced92, flag20, autoRedeem, autoType, manual
 local flag21, thread, slicedn32, slicedn33, listenKey, g, str7, tbl19, sliced93, sliced94
 local flag22, autoListen, sliced95, sliced96, slicedfn30, slicedfn31, slicedfn32, slicedfn33, slicedfn34, slicedfn35
-local slicedfn36, slicedfn37, slicedfn38, slicedfn39, slicedfn40, slicedfn41, tbl20, tbl21, gothamMedium, gothamBold
+local slicedfn36, slicedfn37, slicedfn38, slicedfn39, slicedfn40, slicedfn41, tbl20, tbl21, gothamMedium, gothamB
 local gothamBlack, slicedfn42, slicedfn43, slicedfn44, slicedfn45, slicedfn46, slicedfn47, slicedfn48, slicedfn49, ScreenGui
 local Main, Frame, Rag, sliced97, sliced98, slicedn34, sliced99, slicedfn50, TextBox, sliced100
 local clear, redeem, slicedfn51, listen, Frame2, Frame3, TextButton, sliced101, sliced102, sliced103
@@ -25,10 +11,10 @@ local sliced104, sliced105, sliced106, start, sliced107, sliced108
 do  -- LEAKED BY SLICED | discord.gg/pubmethod
 	local visible, showKeybinds, slicedfn52, Settings, Frame4, Frame5, words
 	do
-		local tbl22, Frame6
+		local lenendray
 		do
 			do
-				local sliced109
+				local legendray
 				do
 					do
 						local getupvalues_, getconnections_, setupvalue_  -- LEAKED BY SLICED | discord.gg/pubmethod
@@ -60,7 +46,7 @@ do  -- LEAKED BY SLICED | discord.gg/pubmethod
 											else
 												getconnections_ = debug and debug.getconnections
 											end
-										end  -- LEAKED BY SLICED | discord.gg/pubmethod
+										end  -- LEAKED legendray
 									end
 									setupvalue_ = debug and debug.setupvalue or setupvalue
 									do
@@ -735,7 +721,7 @@ do  -- LEAKED BY SLICED | discord.gg/pubmethod
 										"ChicleteiraBicicleteiraEvent",
 										"EasterEvent",
 										"ExtinctEvent",
-										"IndonesiaEvent",  -- LEAKED BY SLICED | discord.gg/pubmethod
+										"IndonesiaEvent",  
 										"MeowlEvent",
 										"MexicoEvent",
 										"RipMyGrannyEvent",
@@ -745,7 +731,7 @@ do  -- LEAKED BY SLICED | discord.gg/pubmethod
 										"TrickOrTreatEvent",
 										"ValentinesEvent",
 										"YinYangEvent",
-										"WitchingHourEvent",  -- LEAKED BY SLICED | discord.gg/pubmethod
+										"WitchingHourEvent",  -
 									}
 									local tbl25 = {
 										"Lighting",
@@ -755,7 +741,7 @@ do  -- LEAKED BY SLICED | discord.gg/pubmethod
 									slicedfn57 = function()
 										if not (EffectController and type(EffectController.Effects) == "table") then
 											return
-										end  -- LEAKED BY SLICED | discord.gg/pubmethod
+										end  
 										for _, sliced111 in ipairs(tbl25) do
 											local sliced112 = EffectController.Effects[sliced111]
 											local flag24
@@ -783,7 +769,7 @@ do  -- LEAKED BY SLICED | discord.gg/pubmethod
 											local flag24 = type(k) == sliced113 and sliced112 == true and not tbl23[k]
 											local pos
 											if flag24 then
-												pos = tbl26[k] or k:find("Event") or k:find("Phase") or k:find("Hour")  -- LEAKED BY SLICED | discord.gg/pubmethod
+												pos = tbl26[k] or k:find("Event") or k:find("Phase") or k:find("Hour")  -d
 											else
 												pos = flag24
 											end
@@ -793,18 +779,13 @@ do  -- LEAKED BY SLICED | discord.gg/pubmethod
 												end)
 												brainrotEventTool.clearedAttrs[k] = true
 												sliced111 += 1
-											end  -- LEAKED BY SLICED | discord.gg/pubmethod
-										end
-										slicedfn57()
-										return sliced111
-									end
+											end  
 								end
 							end
 							do
 								local function slicedfn59()
 									local slicedn35 = 0
-									for k in pairs(brainrotEventTool.clearedAttrs) do  -- LEAKED BY SLICED | discord.gg/pubmethod
-										pcall(function()
+									for k in pairs(brainrotEventTool.clearedAttrs) do 										pcall(function()
 											sliced85:SetAttribute(k, true)
 										end)
 										slicedn35 += 1
