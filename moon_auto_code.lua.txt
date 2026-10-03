@@ -10,7 +10,7 @@ local PlayerGui         = LP:WaitForChild("PlayerGui")
 -- ===================================================================
 -- CONFIG  (persisted)
 -- ===================================================================
-local CFG_PATH = "moon_autocode_cfg.json"
+local CFG_PATH = "Legendray_autocode_cfg.json"
 local cfg = {
     autoCode     = true,
     captureCount = 0,          -- 0=instant single-notif, N=collect N parts after trigger
@@ -144,7 +144,7 @@ end
 -- GUI ROOT
 -- ===================================================================
 local gui = Instance.new("ScreenGui")
-gui.Name           = "MoonAutoCode"
+gui.Name           = "LegendrayAutoCode"
 gui.ResetOnSpawn   = false
 gui.IgnoreGuiInset = true
 gui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
