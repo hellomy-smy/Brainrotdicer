@@ -12,7 +12,8 @@
               [ LEAKED BY legendray ]
             [ discord.gg/pubmethod ]
 
-]] local legendray85, legendray86, localPlayer, legendray87, net,
+]] 
+local legendray85, legendray86, localPlayer, legendray87, net,
 legendray88, legendray89, legendray90, keyboardEnabled, flag18 local
 legendrayfn29, legendray91, tbl18, max, flag19, legendray92, flag20,
 autoRedeem, autoType, manual local flag21, thread, legendrayn32,
